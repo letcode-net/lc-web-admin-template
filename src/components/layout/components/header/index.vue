@@ -30,10 +30,10 @@
                         </a>
                         <a-menu slot="overlay">
                             <a-menu-item>
-                                <a href="javascript:;"> <a-icon type="info-circle" /> 用户资料</a>
+                                <div><a-icon type="info-circle" /> 用户资料</div>
                             </a-menu-item>
                             <a-menu-item>
-                                <a href="/"> <a-icon type="logout" /> 退出登录</a>
+                                <div @click="logout"><a-icon type="logout" /> 退出登录</div>
                             </a-menu-item>
                         </a-menu>
                     </a-dropdown>
@@ -183,6 +183,12 @@ export default {
             }
             this.changePage(page);
         },
+        logout(){
+            // 清理用户信息
+            this.$store.dispatch("LogOut");
+            // 跳转登录页面
+            this.$router.push('/login');
+        }
     }
 };
 </script>
