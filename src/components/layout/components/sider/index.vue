@@ -1,7 +1,7 @@
 <template>
     <div :class="['sider', {nano: collapsed}]">
         <div class="logo">
-            <img src="/image/logo.png" v-show="collapsed">
+            <img src="@/assets/image/logo.png" v-show="collapsed">
             <span v-show="!collapsed">管理后台</span>
         </div>
         <a-menu

@@ -3,7 +3,7 @@
         <div class="bg"></div>
         <div class="login-form">
             <div class="form-title">
-                <img src="/image/logo.png" alt />
+                <img src="@/assets/image/logo.png" alt />
                 <span>管理系统</span>
             </div>
             <a-form-model ref="ruleForm" :model="user" :rules="rules">
@@ -130,7 +130,7 @@ export default {
 .bg {
     width: 100%;
     height: 100%;
-    background-image: url("/image/bg.jpg");
+    background-image: url("../../../../assets/image/login_bg.jpg");
     background-position: center;
     opacity: 0.025;
     animation: bga 14s linear infinite alternate;
