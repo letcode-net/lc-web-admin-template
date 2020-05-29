@@ -3,6 +3,8 @@
 这是基于 [Vue CLI](https://cli.vuejs.org/zh/)  和 [Ant Design Vue](https://www.antdv.com/) 开发的后台管理系统模板页面，目前还在不断完善中。
 
 
+**演示站点：** http://letcode-net.gitee.io/lc-web-admin-demo 
+
 
 ### 安装
 
