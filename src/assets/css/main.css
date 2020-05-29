@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+}
+
+.blue{
+    color: rgb(64, 158, 255);
+}
+
+.green{
+    color: rgb(103, 194, 58);
+}
+
+.orange{
+    color: rgb(230, 162, 60);
+}
+
+.red{
+    color: rgb(245, 108, 108);
+}
+
+.gray{
+    color: rgb(144, 147, 153);
+}
+
+.m-btn{
+    line-height: 30px;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    background-color: rgb(144, 146, 152);
+}
+
+.m-btn[disabled],
+.m-btn:hover{
+    background-color: rgba(144, 146, 152, 0.8);
+}
+
+.m-btn.blue{
+    background-color: rgb(64, 158, 255);
+}
+
+.m-btn.blue[disabled],
+.m-btn.blue:hover{
+    background-color: rgba(64, 158, 255, 0.8);
+}
+
+.m-btn.green{
+    background-color: rgb(103, 194, 58);
+}
+
+.m-btn.green[disabled],
+.m-btn.green:hover{
+    background-color: rgba(103, 194, 58, 0.8);
+}
+
+.m-btn.orange{
+    background-color: rgb(230, 162, 60);
+}
+
+.m-btn.green[disabled],
+.m-btn.orange:hover{
+    background-color: rgba(230, 162, 60, 0.8);
+}
+
+.m-btn.red{
+    background-color: rgb(245, 108, 108);
+}
+
+.m-btn.red[disabled],
+.m-btn.red:hover{
+    background-color: rgba(245, 108, 108, 0.8);
+}
+
+.m-btn i{
+    margin-right: 2px;
+}
+
+.m-box {
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.m-box > .m-header {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.m-box > .m-header span {
+    margin-right: 10px;
+    color: #606266;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.m-box > .m-body {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
