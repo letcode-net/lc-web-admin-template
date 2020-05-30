@@ -1,16 +1,13 @@
 <template>
     <div>
-        <component :is="componentName"></component>
+        <h2>请动态更换组件</h2>
     </div>
 </template>
 
 <script>
 export default {
     name: "Dialog",
-    props: ["componentName", "params"],
-    components: {
-        UserForm: (resolve) => require(['@/components/views/rbac/user/Form'], resolve)
-    },
+    props: ["params"],
     mounted() {
     },
     data() {
